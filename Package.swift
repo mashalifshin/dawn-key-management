@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "KeyManagement",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v16), .macOS(.v11)],
     products: [
         .library(
             name: "Wallet",
